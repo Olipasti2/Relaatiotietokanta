@@ -28,4 +28,4 @@ koord2 = haelentoasema(asema2)
 
 etaisyys = distance.distance(koord1, koord2).km
 
-print(f'kenttien välinen etäisyys on {etaisyys}km.')
+print(f'kenttien välinen etäisyys on {etaisyys:.2f}km.')
